@@ -1,0 +1,86 @@
+!!!!SEGMENT:
+!!!OMD: Ex123.musicxml
+**kern
+*part1
+*staff1
+*I"Piano, Acoustic Grand Piano
+*I'Pno.
+*clefG2
+*k[b-]
+!!LO:TX:omd:t=
+*M4/4
+*MM120
+=1
+2.a/
+[4b-\
+=2
+16b-\KL]
+[8.cc\J
+6cc\]
+[12dd\
+4dd\]
+[4ff\
+=3
+16ff\KL]
+8ff\
+[16aa\Jk
+16aa\KL]
+8ff\
+[16dd\Jk
+16dd\KL]
+8cc\
+[16a\Jk
+16a\KL]
+8.cc\J
+=4
+*^
+8r	4dd'\
+4.cc'/	.
+.	8.a\L
+.	[16b-\Jk
+2r	16b-\KL]
+.	8cc\
+.	[16dd\Jk
+.	16dd\KL]
+.	8a\
+.	[16cc\Jk
+!!LO:LB:g=z	!!
+=5	=5
+8r	16cc\KL]
+.	8.dd'\J
+16r	.
+[16cc/	.
+8cc/]	16r
+.	8a\L
+8r	.
+.	[16b-\Jk
+32r	32b-\]
+[16.cc/LL	32r
+.	16r
+16cc/JJ]	8a\
+16r	.
+4r	16.dd\LL
+.	[32cc\K
+.	16cc\]
+.	[16dd\JJ
+=6	=6
+1r	32dd\KLL]
+.	16.dd\
+.	16.dd\
+.	[32a\JJk
+.	16a\LL]
+.	[16b-\
+.	32b-\K]
+.	16.a\JJ
+.	16.b-\LL
+.	[32a\K
+.	16a\JJ]
+.	16r
+.	4r
+*v	*v
+=
+*-
+!!!software: music21 v.9.9.1
+!!!software: MuseScore 2.3.2
+!!!RDF**kern: > = above
+!!!RDF**kern: < = below

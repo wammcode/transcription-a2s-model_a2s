@@ -1,0 +1,49 @@
+!!!!SEGMENT:
+!!!OMD: 000100126-24_1_1.musicxml
+**kern
+*part1
+*staff1
+*I"Piano, Acoustic Grand Piano
+*I'Pno.
+*clefG2
+*k[b-e-]
+!!LO:TX:omd:t=
+*M3/4
+*MM188
+=1
+2.e-/
+=2
+2.g/
+=3
+2b-\
+4a-X/
+=4
+4b-\
+4b-\
+4cc\
+=5
+*^
+4dd/	4r
+4r	2ee-\
+[4dd/	.
+=6	=6
+2dd/]	4r
+.	[2ee-\
+4r	.
+=7	=7
+[2.gg/	4ee-\]
+.	4r
+.	4r
+*v	*v
+=8
+[4ee-\ 4gg\]
+2ee-\_
+=9
+2ee-\]
+4r
+=
+*-
+!!!software: music21 v.9.9.1
+!!!software: MuseScore 2.3.2
+!!!RDF**kern: > = above
+!!!RDF**kern: < = below

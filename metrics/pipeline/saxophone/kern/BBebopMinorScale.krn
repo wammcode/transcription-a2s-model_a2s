@@ -1,0 +1,101 @@
+!!!!SEGMENT:
+!!!OMD: BBebopMinorScale.musicxml
+**kern
+*part1
+*staff1
+*I"Piano, Acoustic Grand Piano
+*I'Pno.
+*clefG2
+*k[]
+!!LO:TX:omd:t=
+*M4/4
+*MM120
+=1
+4A/
+8.B/L
+[16d/Jk
+8d/L]
+8e/
+8f/
+8g/J
+=2
+*^
+2r	8a\L
+.	8b\
+.	8cc\
+.	8dd\J
+8r	4ee'\
+4.ff'/	.
+.	8.gg\L
+.	[16gg\Jk
+=3	=3
+1r	16gg\KL]
+.	8aa\
+.	[16gg\Jk
+.	16gg\KL]
+.	8ff\
+.	[16ee\Jk
+.	16ee\KL]
+.	8dd\
+.	[16cc\Jk
+.	16cc\KL]
+.	8b\
+.	[16a\Jk
+!!LO:LB:g=z	!!
+=4	=4
+1r	16a\KL]
+.	8g\
+.	[16g#X\Jk
+.	16g#\KL]
+.	8f\
+.	[16e\Jk
+.	16e\KL]
+.	8d\
+.	[16c\Jk
+.	16c\KL]
+*clefF4	*
+.	8B\
+.	[16B\Jk
+=5	=5
+1r	16B\KL]
+.	8B\
+.	[16B\Jk
+.	16B\KL]
+.	[8.B\J
+.	12B\]
+.	[6A\
+.	8.A\L]
+.	[16A\Jk
+=6	=6
+1r	4A\]
+.	[4A\
+.	12A\]
+.	[6A\
+.	8A\L]
+.	[8A\J
+!!LO:LB:g=z	!!
+=7	=7
+1r	6A\]
+.	[12A\
+.	8.A\L]
+.	[16A\Jk
+.	8.A\L]
+.	[16A\Jk
+.	8.A\L]
+.	[16A\Jk
+=8	=8
+1r	8.A\L]
+.	[16A\Jk
+.	8.A\L]
+.	[16A\Jk
+.	8.A\L]
+.	[16A\Jk
+.	8.A\]
+.	16r
+*v	*v
+=
+*-
+!!!software: music21 v.9.9.1
+!!!software: MuseScore 2.3.2
+!!!RDF**kern: > = above
+!!!RDF**kern: < = below

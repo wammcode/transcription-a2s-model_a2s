@@ -1,0 +1,23 @@
+Note 62 188 188 375 0
+Note 64 375 375 562 0
+Note 65 562 562 750 0
+Note 64 750 750 938 0
+Note 65 938 938 1125 0
+Note 67 1125 1125 1313 0
+Note 64 1313 1313 1500 0
+Note 65 1500 1500 1875 0
+Note 74 1875 1875 2625 0
+Note 73 2625 2625 3000 0
+Tatum 0
+Tatum 375
+Tatum 750
+Tatum 1125
+Tatum 1500
+Tatum 1875
+Tatum 2250
+Tatum 2625
+Tatum 3000
+Tatum 3375
+Tatum 3750
+Hierarchy 4,2 1 a=0 0
+Key -1 Maj 0

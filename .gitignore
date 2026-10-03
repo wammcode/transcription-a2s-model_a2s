@@ -1,0 +1,37 @@
+# Repositorio anidado: su historial se respalda en control_version/a2s-transformer.bundle
+/a2s-transformer/
+
+# Datos fuente de gran tamaño
+/data/**/wav/
+/data/**/flac/
+/data/**/audio/
+/data/**/midi/
+*.wav
+*.WAV
+*.flac
+*.FLAC
+
+# Pesos, resultados de entrenamiento y cachés regenerables
+*.ckpt
+*.pth
+*.pt
+*.onnx
+**/wandb/
+**/joblib_cache/
+**/logs/
+**/predict/
+**/__pycache__/
+*.py[cod]
+*.so
+.ipynb_checkpoints/
+
+# Archivos temporales y del sistema
+.DS_Store
+Thumbs.db
+*~
+*.swp
+
+# Binarios y metadatos generados por MUSTER
+/MUSTER_v220127/MUSTER/Programs/
+/MUSTER_v220127/__MACOSX/
+__MACOSX/

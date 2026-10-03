@@ -1,0 +1,108 @@
+!!!!SEGMENT:
+!!!OMD: Ex205.musicxml
+**kern
+*part1
+*staff1
+*I"Piano, Acoustic Grand Piano
+*I'Pno.
+*clefG2
+*k[b-]
+!!LO:TX:omd:t=
+*M4/4
+*MM120
+=1
+[4ee\
+16ee\KL]
+[8.ee\J
+8ee\]
+[4ff\
+16ff\LL]
+[16aa\JJ
+=2
+4aa\]
+[4bb-\
+12bb-\]
+[6bb-\
+8.bb-\L]
+[16gg\Jk
+=3
+*Xbrackettup
+*^
+24gg/KL]	2r
+12.ff/	.
+[12dd/J	.
+16dd/KL]	.
+8.cc/J	.
+8b-/	4r
+4.cc'/	.
+.	16r
+.	[8.g\
+=4	=4
+4r	2g\]
+8r	.
+32r	.
+16.cc/	.
+16.b-/LL	2r
+[32cc/K	.
+16cc/]	.
+[16cc/JJ	.
+32cc/KLL]	.
+16.dd/	.
+16.cc/	.
+[32b-/JJk	.
+!!LO:LB:g=z	!!
+=5	=5
+16b-/LL]	4r
+16cc/	.
+16cc/	.
+16cc/JJ	.
+16r	4b-'\
+16cc/KL	.
+8cc/J	.
+!LO:N:vis=32	!
+640%23cc/LLL	2r
+!LO:N:vis=32	!
+[640%23cc/	.
+!LO:N:vis=32	!
+640%23cc/]	.
+!LO:N:vis=32	!
+640%23cc/J	.
+!LO:N:vis=16	!
+1920%137cc/	.
+!LO:N:vis=16	!
+1920%137cc/	.
+!LO:N:vis=16	!
+1920%137cc/	.
+!LO:N:vis=16	!
+1920%137cc/	.
+!LO:N:vis=16	!
+[1920%137cc/JJ	.
+.	1920ryy
+*v	*v
+=6
+32cc\KLL]
+16.cc\
+16.cc\
+[32cc\JJk
+16cc\LL]
+[16cc\
+32cc\K]
+16.cc\JJ
+16.cc\LL
+[32cc\K
+16cc\]
+[16cc\JJ
+32cc\KLL]
+16.cc\
+16.cc\
+[32cc\JJk
+=7
+4cc\]
+4r
+2r
+=
+*-
+!!!software: music21 v.9.9.1
+!!!software: MuseScore 2.3.2
+!!!RDF**kern: > = above
+!!!RDF**kern: < = below

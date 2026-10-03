@@ -1,0 +1,138 @@
+Note 70 0 0 2967 0
+Note 66 2967 2967 3956 0
+Note 65 3626 3626 4615 0
+Note 66 4615 4615 5604 0
+Note 65 5604 5604 5934 0
+Note 66 5934 5934 6264 0
+Note 61 6264 6264 6593 0
+Note 61 6593 6593 6923 0
+Note 61 6923 6923 7253 0
+Note 61 7253 7253 7582 0
+Note 66 7582 7582 7912 0
+Note 70 7912 7912 8242 0
+Note 73 8242 8242 8571 0
+Note 74 8571 8571 9231 0
+Note 78 8901 8901 9560 0
+Note 75 9560 9560 10549 0
+Note 70 10549 10549 10879 0
+Note 70 10879 10879 11868 0
+Note 70 11868 11868 12857 0
+Note 70 12857 12857 13846 0
+Note 70 13846 13846 14835 0
+Note 70 14835 14835 15824 0
+Note 70 15824 15824 16813 0
+Note 70 16813 16813 18132 0
+Tatum 0
+Tatum 165
+Tatum 330
+Tatum 495
+Tatum 659
+Tatum 824
+Tatum 989
+Tatum 1154
+Tatum 1319
+Tatum 1484
+Tatum 1648
+Tatum 1813
+Tatum 1978
+Tatum 2143
+Tatum 2308
+Tatum 2473
+Tatum 2637
+Tatum 2802
+Tatum 2967
+Tatum 3132
+Tatum 3297
+Tatum 3462
+Tatum 3626
+Tatum 3791
+Tatum 3956
+Tatum 4121
+Tatum 4286
+Tatum 4451
+Tatum 4615
+Tatum 4780
+Tatum 4945
+Tatum 5110
+Tatum 5275
+Tatum 5440
+Tatum 5604
+Tatum 5769
+Tatum 5934
+Tatum 6099
+Tatum 6264
+Tatum 6429
+Tatum 6593
+Tatum 6758
+Tatum 6923
+Tatum 7088
+Tatum 7253
+Tatum 7418
+Tatum 7582
+Tatum 7747
+Tatum 7912
+Tatum 8077
+Tatum 8242
+Tatum 8407
+Tatum 8571
+Tatum 8736
+Tatum 8901
+Tatum 9066
+Tatum 9231
+Tatum 9396
+Tatum 9560
+Tatum 9725
+Tatum 9890
+Tatum 10055
+Tatum 10220
+Tatum 10385
+Tatum 10549
+Tatum 10714
+Tatum 10879
+Tatum 11044
+Tatum 11209
+Tatum 11374
+Tatum 11538
+Tatum 11703
+Tatum 11868
+Tatum 12033
+Tatum 12198
+Tatum 12363
+Tatum 12527
+Tatum 12692
+Tatum 12857
+Tatum 13022
+Tatum 13187
+Tatum 13352
+Tatum 13516
+Tatum 13681
+Tatum 13846
+Tatum 14011
+Tatum 14176
+Tatum 14341
+Tatum 14505
+Tatum 14670
+Tatum 14835
+Tatum 15000
+Tatum 15165
+Tatum 15330
+Tatum 15494
+Tatum 15659
+Tatum 15824
+Tatum 15989
+Tatum 16154
+Tatum 16319
+Tatum 16483
+Tatum 16648
+Tatum 16813
+Tatum 16978
+Tatum 17143
+Tatum 17308
+Tatum 17473
+Tatum 17637
+Tatum 17802
+Tatum 17967
+Tatum 18132
+Tatum 18297
+Hierarchy 3,2 1 a=0 0
+Key -5 Maj 0

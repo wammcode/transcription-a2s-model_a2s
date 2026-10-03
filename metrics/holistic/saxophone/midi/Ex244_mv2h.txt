@@ -1,0 +1,46 @@
+Note 60 0 0 667 0
+Note 63 667 667 1000 0
+Note 67 1000 1000 1333 0
+Note 70 1333 1333 1667 0
+Note 65 1667 1667 2000 0
+Note 67 2000 2000 2333 0
+Note 67 2333 2333 3667 0
+Note 67 4333 4333 5333 0
+Note 65 5333 5333 6667 0
+Note 65 6667 6667 7667 0
+Note 67 7667 7667 8000 0
+Note 67 8000 8000 8333 0
+Note 65 8333 8333 9667 0
+Tatum 0
+Tatum 333
+Tatum 667
+Tatum 1000
+Tatum 1333
+Tatum 1667
+Tatum 2000
+Tatum 2333
+Tatum 2667
+Tatum 3000
+Tatum 3333
+Tatum 3667
+Tatum 4000
+Tatum 4333
+Tatum 4667
+Tatum 5000
+Tatum 5333
+Tatum 5667
+Tatum 6000
+Tatum 6333
+Tatum 6667
+Tatum 7000
+Tatum 7333
+Tatum 7667
+Tatum 8000
+Tatum 8333
+Tatum 8667
+Tatum 9000
+Tatum 9333
+Tatum 9667
+Tatum 10000
+Hierarchy 4,2 1 a=0 0
+Key -4 Maj 0

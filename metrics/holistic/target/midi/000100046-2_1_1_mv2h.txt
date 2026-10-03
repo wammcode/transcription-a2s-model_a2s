@@ -1,0 +1,38 @@
+Note 67 0 0 6000 0
+Note 67 6000 6000 6750 0
+Note 69 7500 7500 8625 0
+Note 69 8625 8625 9000 0
+Note 67 9000 9000 10500 0
+Tatum 0
+Tatum 375
+Tatum 750
+Tatum 1125
+Tatum 1500
+Tatum 1875
+Tatum 2250
+Tatum 2625
+Tatum 3000
+Tatum 3375
+Tatum 3750
+Tatum 4125
+Tatum 4500
+Tatum 4875
+Tatum 5250
+Tatum 5625
+Tatum 6000
+Tatum 6375
+Tatum 6750
+Tatum 7125
+Tatum 7500
+Tatum 7875
+Tatum 8250
+Tatum 8625
+Tatum 9000
+Tatum 9375
+Tatum 9750
+Tatum 10125
+Tatum 10500
+Tatum 10875
+Tatum 11250
+Hierarchy 2,2 1 a=0 0
+Key 0 Maj 0

@@ -1,0 +1,75 @@
+!!!!SEGMENT:
+!!!OMD: EBebopMinorScale.musicxml
+**kern
+*part1
+*staff1
+*I"Piano, Acoustic Grand Piano
+*I'Pno.
+*clefG2
+*k[b-]
+!!LO:TX:omd:t=
+*M3/4
+*MM117
+=1
+4d/
+4e/
+4f/
+=2
+8g/L
+8a/J
+8b-\L
+8cc\J
+8dd\L
+8ee\J
+=3
+8ff\L
+8gg\J
+8aa\L
+8ccc\J
+8ccc\L
+8ccc\J
+=4
+8ccc\L
+8ccc\J
+8ccc\L
+8ccc\J
+8ccc\L
+8ccc\J
+=5
+8ccc\L
+8ccc\J
+8aa\L
+8gg\J
+8ff\L
+8dd\J
+=6
+8cc\L
+8b-\J
+8a/L
+8g/J
+8f/L
+8e/J
+!!LO:LB:g=z
+=7
+8f/L
+8e/J
+8d/L
+[8e/J
+16e/KL]
+8d'/J
+32r
+32e/
+=8
+4d'/
+4e/
+4d/
+=9
+4d/
+4d/
+4r
+=
+*-
+!!!software: music21 v.9.9.1
+!!!software: MuseScore 2.3.2
+!!!RDF**kern: > = above
+!!!RDF**kern: < = below

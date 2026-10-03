@@ -1,0 +1,67 @@
+!!!!SEGMENT:
+!!!OMD: Ex52.musicxml
+**kern
+*part1
+*staff1
+*I"Piano, Acoustic Grand Piano
+*I'Pno.
+*clefG2
+*k[]
+!!LO:TX:omd:t=
+*M3/4
+*MM159
+=1
+*^
+4r	2cc\
+[2ee-X/	.
+.	4r
+*v	*v
+=2
+4ee-\] [4gg\
+4gg\]
+[4bb-X\
+=3
+2bb-\]
+4ccc\
+=4
+4bb-X\
+4ccc\
+4ccc\
+=5
+4ccc\
+4ccc\
+4ccc\
+=6
+*^
+4r	4ccc\
+4r	4ccc\
+[4ccc/	4r
+=7	=7
+2.ccc/]	4r
+.	4r
+.	[4bb-X\
+=8	=8
+2.r	2.bb-\_
+=9	=9
+4r	4bb-\]
+2gg/	4r
+.	[4ff\
+!!LO:LB:g=z	!!
+=10	=10
+4r	4ff\]
+2cc/	4r
+.	[4b-X\
+=11	=11
+2.r	4b-\]
+.	4cc\
+.	[4cc\
+=12	=12
+2.r	2cc\]
+.	4r
+*v	*v
+=
+*-
+!!!software: music21 v.9.9.1
+!!!software: MuseScore 2.3.2
+!!!RDF**kern: > = above
+!!!RDF**kern: < = below

@@ -1,0 +1,57 @@
+Note 77 0 0 1343 0
+Note 67 448 448 896 0
+Note 69 896 896 1343 0
+Note 70 1343 1343 1791 0
+Note 77 1343 1343 4030 0
+Note 69 1791 1791 2239 0
+Note 70 2239 2239 2687 0
+Note 72 2687 2687 3134 0
+Note 74 3134 3134 3582 0
+Note 76 3582 3582 4030 0
+Note 77 4030 4030 4925 0
+Note 76 4478 4478 4925 0
+Note 77 4925 4925 5821 0
+Note 79 5373 5373 5821 0
+Note 77 5821 5821 6716 0
+Note 74 6269 6269 7164 0
+Note 74 6716 6716 7164 0
+Note 76 6716 6716 7164 0
+Note 76 7164 7164 7612 0
+Tatum 0
+Tatum 224
+Tatum 448
+Tatum 672
+Tatum 896
+Tatum 1119
+Tatum 1343
+Tatum 1567
+Tatum 1791
+Tatum 2015
+Tatum 2239
+Tatum 2463
+Tatum 2687
+Tatum 2910
+Tatum 3134
+Tatum 3358
+Tatum 3582
+Tatum 3806
+Tatum 4030
+Tatum 4254
+Tatum 4478
+Tatum 4701
+Tatum 4925
+Tatum 5149
+Tatum 5373
+Tatum 5597
+Tatum 5821
+Tatum 6045
+Tatum 6269
+Tatum 6493
+Tatum 6716
+Tatum 6940
+Tatum 7164
+Tatum 7388
+Tatum 7612
+Tatum 7836
+Hierarchy 3,2 1 a=0 0
+Key -1 Maj 0
