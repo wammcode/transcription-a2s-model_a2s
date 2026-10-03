@@ -2,6 +2,12 @@
 
 Este proyecto sigue el formato de [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/) y utiliza versionado semántico.
 
+## [Sin publicar]
+
+### Añadido
+
+- Guía breve para clonar el repositorio global y restaurar el historial de `a2s-transformer`.
+
 ## [0.1.0] - 2026-10-03
 
 ### Añadido

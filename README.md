@@ -43,5 +43,6 @@ git commit -m "Actualizar trazabilidad de a2s-transformer"
 
 ## Documentación de los componentes
 
+- [Clonar el proyecto](CLONAR.md)
 - [A2S Transformer](a2s-transformer/README.md)
 - [MUSTER](MUSTER_v220127/MUSTER/README.txt)
