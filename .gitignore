@@ -2,6 +2,7 @@
 /a2s-transformer/
 
 # Datos fuente de gran tamaño
+data
 /data/**/wav/
 /data/**/flac/
 /data/**/audio/
