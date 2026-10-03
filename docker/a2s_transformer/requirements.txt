@@ -1,0 +1,9 @@
+fire
+librosa
+lightning
+music21
+pyMV2H
+torch==2.0.0
+torchinfo
+wandb
+numpy==1.26
