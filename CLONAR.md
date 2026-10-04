@@ -11,6 +11,17 @@ git -C a2s-transformer fetch origin
 
 Los audios WAV/FLAC, los pesos `.ckpt`, los registros y las cachés no se incluyen en GitHub. Cópialos desde el equipo original o desde su almacenamiento externo si los necesitas.
 
+## Actualizar ambos repositorios
+
+Desde la raíz del proyecto, actualiza primero el repositorio global y después el repositorio interno de `a2s-transformer`:
+
+```bash
+git pull origin main
+git -C a2s-transformer pull origin main
+```
+
+El primer comando actualiza `wammcode/transcription-a2s-model_a2s`, incluido el último archivo de respaldo `control_version/a2s-transformer.bundle`. El segundo actualiza directamente la copia de trabajo de `a2s-transformer` desde `multiscore/a2s-transformer`. Antes de ejecutarlos, confirma o guarda temporalmente los cambios locales en cada repositorio para evitar conflictos.
+
 ## Publicar cambios de ambos repositorios
 
 `a2s-transformer` conserva su Git interno, pero su remoto `origin` corresponde al proyecto original de MultiScore. No ejecute `git -C a2s-transformer push origin main`: no es necesario para el repositorio global y requiere permisos sobre `multiscore/a2s-transformer`.
