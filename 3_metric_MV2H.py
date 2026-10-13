@@ -8,11 +8,11 @@ pm.pretty_midi.MAX_TICK = 1e10
 
 
 ########## Parametros Dinamicas ##########
-dataset = 'saxophone'
+dataset = 'quartets'
 model = 'transformer'
 ##########################################
-path_midi_est =    f"/home/wilson/Documentos/Experimentos_2026/07_Models_AMT_A2S/metrics/amt/saxophone/midi"
-path_midi_target = f"/home/wilson/Documentos/Experimentos_2026/07_Models_AMT_A2S/metrics/amt/target/midi"
+path_midi_est =    f"/home/wilson/Documentos/Experimentos_2026/07_Models_AMT_A2S/metrics/holistic/quartets/midi"
+path_midi_target = f"/home/wilson/Documentos/Experimentos_2026/07_Models_AMT_A2S/metrics/holistic/target/quartets/midi"
 method = 'AMT'
 #path_midi_target = "/home/grfia/wilson/project_2025_1/AMT/code_and_data/data_test/midi"
 #path_midi_est = "/home/grfia/wilson/project_2025_1/AMT/code_and_data/data_test/est_midi"

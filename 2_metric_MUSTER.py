@@ -21,12 +21,12 @@ except ImportError:
     pd = None
 
 
-dataset = 'saxophone'
+dataset = 'quartets'
 model = 'transformer'
 
 # --- Parametros --- archivos xml
-ESTIMATED_DIR =    os.path.abspath(f'metrics/amt/saxophone/musicxml')
-GROUND_TRUTH_DIR = os.path.abspath(f'metrics/amt/target/musicxml')
+ESTIMATED_DIR =    os.path.abspath(f'metrics/holistic/quartets/musicxml')
+GROUND_TRUTH_DIR = os.path.abspath(f'metrics/holistic/target/quartets/musicxml')
 
 # --- Configuration ---
 MUSTER_EVAL_SCRIPT = os.path.abspath('MUSTER_v220127/MUSTER/evaluate_XML_voicePlus.sh')

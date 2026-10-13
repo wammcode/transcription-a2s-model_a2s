@@ -11,12 +11,12 @@ pm.pretty_midi.MAX_TICK = 1e10
 
 
 ########## Parametros Dinamicas ##########
-dataset = 'saxophone'
+dataset = 'quartets'
 model = 'transformer'
 ##########################################
-est_midi_path = f"metrics/amt/saxophone/midi"
-midi_path =     f"metrics/amt/target/midi"
-method = 'AMT'
+est_midi_path = f"metrics/holistic/quartets/midi"
+midi_path =     f"metrics/holistic/target/quartets/midi"
+method = 'A2S'
 
 
 
