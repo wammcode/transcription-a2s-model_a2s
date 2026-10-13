@@ -13,6 +13,7 @@ data
 *.FLAC
 
 # Pesos, resultados de entrenamiento y cachés regenerables
+*.out
 *.ckpt
 *.pth
 *.pt
