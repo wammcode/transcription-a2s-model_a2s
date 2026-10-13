@@ -1,0 +1,154 @@
+DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
+            Install the buildx component to build images with BuildKit:
+            https://docs.docker.com/go/buildx/
+
+[docker-wrapper] Memoria contenedor limitada a 20480 MB (Slurm)
+/opt/conda/lib/python3.10/site-packages/torch/nn/modules/activation.py:1144: UserWarning: Converting mask without torch.bool dtype to bool; this will negatively affect performance. Prefer to use a boolean mask directly. (Triggered internally at /opt/conda/conda-bld/pytorch_1678411187366/work/aten/src/ATen/native/transformers/attention.cpp:150.)
+  return torch._native_multi_head_attention(
+wandb: WARNING `resume` will be ignored since W&B syncing is set to `offline`. Starting a new run with run id ovvi48yx.
+wandb: Tracking run with wandb version 0.16.6
+wandb: W&B syncing is set to `offline` in this directory.  
+wandb: Run `wandb online` or set WANDB_MODE=online to enable cloud syncing.
+Using 16bit Automatic Mixed Precision (AMP)
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name         | Type                 | Params
+------------------------------------------------------
+0 | encoder      | Encoder              | 1.3 M 
+1 | pos_2d       | PositionalEncoding2D | 0     
+2 | decoder      | Decoder              | 7.2 M 
+3 | compute_loss | CrossEntropyLoss     | 0     
+------------------------------------------------------
+8.4 M     Trainable params
+0         Non-trainable params
+8.4 M     Total params
+33.791    Total estimated model params size (MB)
+wandb: WARNING Serializing object of type dict that is 147552 bytes
+wandb: WARNING Serializing object of type dict that is 147552 bytes
+Metric val_sym-er improved. New best score: 64.848
+Epoch 4, global step 7610: 'val_sym-er' reached 64.84841 (best 64.84841), saving model to 'weights/transformer-VCT/quartets.ckpt' as top 1
+Metric val_sym-er improved by 14.265 >= min_delta = 0.01. New best score: 50.583
+Epoch 9, global step 15220: 'val_sym-er' reached 50.58332 (best 50.58332), saving model to 'weights/transformer-VCT/quartets.ckpt' as top 1
+Metric val_sym-er improved by 2.395 >= min_delta = 0.01. New best score: 48.189
+Epoch 14, global step 22830: 'val_sym-er' reached 48.18859 (best 48.18859), saving model to 'weights/transformer-VCT/quartets.ckpt' as top 1
+Metric val_sym-er improved by 6.967 >= min_delta = 0.01. New best score: 41.221
+Epoch 19, global step 30440: 'val_sym-er' reached 41.22119 (best 41.22119), saving model to 'weights/transformer-VCT/quartets.ckpt' as top 1
+Metric val_sym-er improved by 2.116 >= min_delta = 0.01. New best score: 39.105
+Epoch 24, global step 38050: 'val_sym-er' reached 39.10527 (best 39.10527), saving model to 'weights/transformer-VCT/quartets.ckpt' as top 1
+Metric val_sym-er improved by 3.567 >= min_delta = 0.01. New best score: 35.538
+Epoch 29, global step 45660: 'val_sym-er' reached 35.53794 (best 35.53794), saving model to 'weights/transformer-VCT/quartets.ckpt' as top 1
+Metric val_sym-er improved by 3.828 >= min_delta = 0.01. New best score: 31.709
+Epoch 34, global step 53270: 'val_sym-er' reached 31.70947 (best 31.70947), saving model to 'weights/transformer-VCT/quartets.ckpt' as top 1
+Metric val_sym-er improved by 2.590 >= min_delta = 0.01. New best score: 29.120
+Epoch 39, global step 60880: 'val_sym-er' reached 29.11987 (best 29.11987), saving model to 'weights/transformer-VCT/quartets.ckpt' as top 1
+Metric val_sym-er improved by 1.381 >= min_delta = 0.01. New best score: 27.739
+Epoch 44, global step 68490: 'val_sym-er' reached 27.73914 (best 27.73914), saving model to 'weights/transformer-VCT/quartets.ckpt' as top 1
+Metric val_sym-er improved by 2.114 >= min_delta = 0.01. New best score: 25.625
+Epoch 49, global step 76100: 'val_sym-er' reached 25.62532 (best 25.62532), saving model to 'weights/transformer-VCT/quartets.ckpt' as top 1
+Metric val_sym-er improved by 0.535 >= min_delta = 0.01. New best score: 25.090
+Epoch 54, global step 83710: 'val_sym-er' reached 25.09032 (best 25.09032), saving model to 'weights/transformer-VCT/quartets.ckpt' as top 1
+Metric val_sym-er improved by 1.797 >= min_delta = 0.01. New best score: 23.294
+Epoch 59, global step 91320: 'val_sym-er' reached 23.29361 (best 23.29361), saving model to 'weights/transformer-VCT/quartets.ckpt' as top 1
+Metric val_sym-er improved by 1.582 >= min_delta = 0.01. New best score: 21.711
+Epoch 64, global step 98930: 'val_sym-er' reached 21.71132 (best 21.71132), saving model to 'weights/transformer-VCT/quartets.ckpt' as top 1
+Metric val_sym-er improved by 0.724 >= min_delta = 0.01. New best score: 20.988
+Epoch 69, global step 106540: 'val_sym-er' reached 20.98778 (best 20.98778), saving model to 'weights/transformer-VCT/quartets.ckpt' as top 1
+Metric val_sym-er improved by 0.566 >= min_delta = 0.01. New best score: 20.422
+Epoch 74, global step 114150: 'val_sym-er' reached 20.42179 (best 20.42179), saving model to 'weights/transformer-VCT/quartets.ckpt' as top 1
+Metric val_sym-er improved by 0.961 >= min_delta = 0.01. New best score: 19.461
+Epoch 79, global step 121760: 'val_sym-er' reached 19.46092 (best 19.46092), saving model to 'weights/transformer-VCT/quartets.ckpt' as top 1
+Metric val_sym-er improved by 0.398 >= min_delta = 0.01. New best score: 19.063
+Epoch 84, global step 129370: 'val_sym-er' reached 19.06329 (best 19.06329), saving model to 'weights/transformer-VCT/quartets.ckpt' as top 1
+Metric val_sym-er improved by 1.212 >= min_delta = 0.01. New best score: 17.852
+Epoch 89, global step 136980: 'val_sym-er' reached 17.85154 (best 17.85154), saving model to 'weights/transformer-VCT/quartets.ckpt' as top 1
+Metric val_sym-er improved by 0.576 >= min_delta = 0.01. New best score: 17.275
+Epoch 94, global step 144590: 'val_sym-er' reached 17.27523 (best 17.27523), saving model to 'weights/transformer-VCT/quartets.ckpt' as top 1
+Metric val_sym-er improved by 0.261 >= min_delta = 0.01. New best score: 17.014
+Epoch 99, global step 152200: 'val_sym-er' reached 17.01424 (best 17.01424), saving model to 'weights/transformer-VCT/quartets.ckpt' as top 1
+Metric val_sym-er improved by 0.034 >= min_delta = 0.01. New best score: 16.980
+Epoch 104, global step 159810: 'val_sym-er' reached 16.98030 (best 16.98030), saving model to 'weights/transformer-VCT/quartets.ckpt' as top 1
+Metric val_sym-er improved by 0.341 >= min_delta = 0.01. New best score: 16.639
+Epoch 109, global step 167420: 'val_sym-er' reached 16.63911 (best 16.63911), saving model to 'weights/transformer-VCT/quartets.ckpt' as top 1
+Metric val_sym-er improved by 0.459 >= min_delta = 0.01. New best score: 16.180
+Epoch 114, global step 175030: 'val_sym-er' reached 16.17978 (best 16.17978), saving model to 'weights/transformer-VCT/quartets.ckpt' as top 1
+Epoch 119, global step 182640: 'val_sym-er' was not in top 1
+Metric val_sym-er improved by 1.241 >= min_delta = 0.01. New best score: 14.939
+Epoch 124, global step 190250: 'val_sym-er' reached 14.93920 (best 14.93920), saving model to 'weights/transformer-VCT/quartets.ckpt' as top 1
+Epoch 129, global step 197860: 'val_sym-er' was not in top 1
+Metric val_sym-er improved by 0.362 >= min_delta = 0.01. New best score: 14.577
+Epoch 134, global step 205470: 'val_sym-er' reached 14.57672 (best 14.57672), saving model to 'weights/transformer-VCT/quartets.ckpt' as top 1
+Metric val_sym-er improved by 0.024 >= min_delta = 0.01. New best score: 14.553
+Epoch 139, global step 213080: 'val_sym-er' reached 14.55259 (best 14.55259), saving model to 'weights/transformer-VCT/quartets.ckpt' as top 1
+Epoch 144, global step 220690: 'val_sym-er' was not in top 1
+Metric val_sym-er improved by 0.607 >= min_delta = 0.01. New best score: 13.946
+Epoch 149, global step 228300: 'val_sym-er' reached 13.94582 (best 13.94582), saving model to 'weights/transformer-VCT/quartets.ckpt' as top 1
+Epoch 154, global step 235910: 'val_sym-er' was not in top 1
+Metric val_sym-er improved by 0.686 >= min_delta = 0.01. New best score: 13.259
+Epoch 159, global step 243520: 'val_sym-er' reached 13.25948 (best 13.25948), saving model to 'weights/transformer-VCT/quartets.ckpt' as top 1
+Epoch 164, global step 251130: 'val_sym-er' was not in top 1
+Epoch 169, global step 258740: 'val_sym-er' was not in top 1
+Metric val_sym-er improved by 0.572 >= min_delta = 0.01. New best score: 12.688
+Epoch 174, global step 266350: 'val_sym-er' reached 12.68785 (best 12.68785), saving model to 'weights/transformer-VCT/quartets.ckpt' as top 1
+Epoch 179, global step 273960: 'val_sym-er' was not in top 1
+Metric val_sym-er improved by 0.543 >= min_delta = 0.01. New best score: 12.145
+Epoch 184, global step 281570: 'val_sym-er' reached 12.14505 (best 12.14505), saving model to 'weights/transformer-VCT/quartets.ckpt' as top 1
+Epoch 189, global step 289180: 'val_sym-er' was not in top 1
+Epoch 194, global step 296790: 'val_sym-er' was not in top 1
+Metric val_sym-er improved by 0.312 >= min_delta = 0.01. New best score: 11.833
+Epoch 199, global step 304400: 'val_sym-er' reached 11.83326 (best 11.83326), saving model to 'weights/transformer-VCT/quartets.ckpt' as top 1
+Epoch 204, global step 312010: 'val_sym-er' was not in top 1
+Metric val_sym-er improved by 0.180 >= min_delta = 0.01. New best score: 11.653
+Epoch 209, global step 319620: 'val_sym-er' reached 11.65295 (best 11.65295), saving model to 'weights/transformer-VCT/quartets.ckpt' as top 1
+Metric val_sym-er improved by 0.858 >= min_delta = 0.01. New best score: 10.794
+Epoch 214, global step 327230: 'val_sym-er' reached 10.79446 (best 10.79446), saving model to 'weights/transformer-VCT/quartets.ckpt' as top 1
+Epoch 219, global step 334840: 'val_sym-er' was not in top 1
+Epoch 224, global step 342450: 'val_sym-er' was not in top 1
+Epoch 229, global step 350060: 'val_sym-er' was not in top 1
+Epoch 234, global step 357670: 'val_sym-er' was not in top 1
+Monitored metric val_sym-er did not improve in the last 5 records. Best score: 10.794. Signaling Trainer to stop.
+Epoch 239, global step 365280: 'val_sym-er' was not in top 1
+/opt/conda/lib/python3.10/site-packages/torch/nn/modules/activation.py:1144: UserWarning: Converting mask without torch.bool dtype to bool; this will negatively affect performance. Prefer to use a boolean mask directly. (Triggered internally at /opt/conda/conda-bld/pytorch_1678411187366/work/aten/src/ATen/native/transformers/attention.cpp:150.)
+  return torch._native_multi_head_attention(
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+wandb: WARNING Serializing object of type dict that is 147552 bytes
+wandb: WARNING Serializing object of type dict that is 147552 bytes
+wandb: 
+wandb: Run history:
+wandb:               epoch ▁▁▁▂▂▂▂▂▂▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▇▇▇▇▇▇███
+wandb:        test_harmony ▁
+wandb:          test_meter ▁
+wandb:    test_multi-pitch ▁
+wandb:           test_mv2h ▁
+wandb:     test_note_value ▁
+wandb:         test_seq-er ▁
+wandb:         test_sym-er ▁
+wandb:          test_voice ▁
+wandb:    train_loss_epoch █▅▄▃▃▃▂▂▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:     train_loss_step █▅▄▄▃▃▂▂▂▂▂▂▂▂▂▁▁▂▂▁▁▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: trainer/global_step ▁▁▁▂▂▂▂▂▂▃▃▃▃▃▄▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▇▇▇▇▇▇███
+wandb:          val_seq-er ██████████▇▇▇▇▇▆▆▆▆▅▅▅▅▅▄▄▄▃▃▃▃▃▃▂▂▂▂▂▁▁
+wandb:          val_sym-er █▆▆▅▅▄▃▃▃▃▂▂▂▂▂▂▂▂▂▂▂▂▁▁▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: 
+wandb: Run summary:
+wandb:               epoch 240
+wandb:        test_harmony 0.94647
+wandb:          test_meter 0.69134
+wandb:    test_multi-pitch 0.68402
+wandb:           test_mv2h 0.83204
+wandb:     test_note_value 0.93237
+wandb:         test_seq-er 78.88583
+wandb:         test_sym-er 11.03472
+wandb:          test_voice 0.90597
+wandb:    train_loss_epoch 0.06562
+wandb:     train_loss_step 0.05751
+wandb: trainer/global_step 365280
+wandb:          val_seq-er 77.10625
+wandb:          val_sym-er 11.05872
+wandb: 
+wandb: You can sync this run to the cloud by running:
+wandb: wandb sync ./wandb/offline-run-20261007_001543-ovvi48yx
+wandb: Find logs at: ./wandb/offline-run-20261007_001543-ovvi48yx/logs

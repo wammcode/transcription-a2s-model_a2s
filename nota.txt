@@ -1,0 +1,3 @@
+sbatch --partition=dgx --nodelist=allen.iuii.ua.es \
+  --gres=gpu:a100-40gb:1 --time=2-00:00:00 \
+  docker/a2s_transformer/p1.slurm
