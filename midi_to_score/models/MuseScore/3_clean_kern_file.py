@@ -9,6 +9,8 @@ from pathlib import Path
 from typing import List, Optional
 
 RESERVED_WORDS = ("clef", "k[", "*M")
+KERN_HEADER = "**kern"
+DYNAM_HEADER = "**dynam"
 RESERVED_DOT = "."
 RESERVED_DOT_ENCODED_CHARACTER = "."
 CLEF_CHANGE_OTHER_VOICES = "*"
@@ -17,34 +19,40 @@ SPINE_PATH_TOKENS = {"*^", "*v", "*x", "*+", "*-"}
 
 
 def _read_src_file(text: str) -> List[List[str]]:
-    """Adecuar el contenido .krn al formato base para limpiar tokens."""
+    """Leer las filas .krn y excluir las columnas de dinamica."""
     if not text.strip():
         return []
 
     lines = text.splitlines()
 
-    header_found = False
     lines_no_comments: List[List[str]] = []
     for line in lines:
-        if "**kern" in line:
-            header_found = True
         if line.strip().startswith("!"):
             continue
         lines_no_comments.append(line.split("\t"))
 
-    if not header_found:
+    header_row = next((row for row in lines_no_comments if KERN_HEADER in row), None)
+    if header_row is None:
         raise ValueError("No se encontro ninguna cabecera '**kern' en el archivo.")
-    if not lines_no_comments:
-        return []
 
-    return lines_no_comments
+    keep_columns = [index for index, token in enumerate(header_row) if token != DYNAM_HEADER]
+    if len(keep_columns) == len(header_row):
+        return lines_no_comments
+
+    for row in lines_no_comments:
+        if len(row) != len(header_row):
+            raise ValueError("El numero de columnas cambia respecto a la cabecera .krn.")
+
+    return [[row[index] for index in keep_columns] for row in lines_no_comments]
 
 
 def clean_kern_token(in_token: str) -> Optional[str]:
     """Convertir un token kern a su version CLEAN."""
     out_token = None
 
-    if any(reserved_word in in_token for reserved_word in RESERVED_WORDS):
+    if in_token == KERN_HEADER:
+        out_token = in_token
+    elif any(reserved_word in in_token for reserved_word in RESERVED_WORDS):
         out_token = in_token
     elif in_token == RESERVED_DOT:
         out_token = RESERVED_DOT_ENCODED_CHARACTER
