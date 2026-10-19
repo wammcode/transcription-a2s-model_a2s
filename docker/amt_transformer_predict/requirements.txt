@@ -1,0 +1,13 @@
+# PyTorch 2.0.0 is supplied by the CUDA base image.
+torch==2.0.0
+numpy==1.26.4
+fire
+librosa
+numba>=0.59,<0.63
+lightning>=2.0,<2.1
+music21
+pyMV2H
+torchinfo
+wandb==0.16.6
+joblib
+miditok==3.0.6.post1

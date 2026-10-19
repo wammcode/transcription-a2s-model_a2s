@@ -25,6 +25,7 @@ data
 **/predict/
 # La salida completa de SLURM puede superar el límite de tamaño de GitHub.
 /docker/a2s_transformer_train/*.out
+/docker/amt_transformer_train/*.err
 **/__pycache__/
 *.py[cod]
 *.so
