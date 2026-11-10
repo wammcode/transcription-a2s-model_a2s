@@ -8,10 +8,10 @@ from pathlib import Path
 # ==========================================
 
 # Carpeta donde están los archivos .mid
-INPUT_DIR =  Path("/home/wilson/Documentos/Experimentos_2026/07_Models_AMT_A2S/midi_to_score/data/saxophone/midi")
+INPUT_DIR =  Path("/home/wilson/Documentos/Experimentos_2026/07_Models_AMT_A2S/midi_to_score/data/quartets/midi")
 
 # Carpeta donde se guardarán los .musicxml
-OUTPUT_DIR = Path("/home/wilson/Documentos/Experimentos_2026/07_Models_AMT_A2S/midi_to_score/predict/saxophone/musicxml")
+OUTPUT_DIR = Path("/home/wilson/Documentos/Experimentos_2026/07_Models_AMT_A2S/midi_to_score/predict/quartets/musicxml")
 
 # Comando de MuseScore
 MSCORE_COMMAND = "mscore"

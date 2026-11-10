@@ -32,11 +32,6 @@ git -C a2s-transformer merge --ff-only FETCH_HEAD
 
 El primer comando descarga el bundle más reciente. Los dos siguientes importan su rama `main` en el repositorio anidado y avanzan `a2s-transformer` si el cambio es un avance directo. Se puede repetir este bloque cada vez que se publique una nueva versión del bundle.
 
-El remoto `origin` de `a2s-transformer` apunta a `multiscore/a2s-transformer`. Si también quieres consultar y aplicar cambios publicados allí, usa:
-
-```bash
-git -C a2s-transformer pull --ff-only origin main
-```
 
 El bundle y `origin` son fuentes distintas. `--ff-only` evita crear una combinación automática si las ramas han divergido; si un comando se detiene por divergencia, conserva el estado y revisa las ramas antes de decidir cómo integrarlas. No uses `reset --hard` para resolverlo, porque podría descartar commits locales.
 

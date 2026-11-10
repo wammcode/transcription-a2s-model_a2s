@@ -10,8 +10,8 @@ except ModuleNotFoundError:
         return iterable
 
 
-carpeta_origen =  "/home/wilson/Documentos/Experimentos_2026/07_Models_AMT_A2S/midi_to_score/predict/saxophone/musicxml"
-carpeta_destino = "/home/wilson/Documentos/Experimentos_2026/07_Models_AMT_A2S/midi_to_score/predict/saxophone/kern"
+carpeta_origen =  "/home/wilson/Documentos/Experimentos_2026/07_Models_AMT_A2S/midi_to_score/predict/quartets/musicxml"
+carpeta_destino = "/home/wilson/Documentos/Experimentos_2026/07_Models_AMT_A2S/midi_to_score/predict/quartets/kern"
 
 
 def main() -> None:

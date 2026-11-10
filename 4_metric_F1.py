@@ -14,8 +14,8 @@ pm.pretty_midi.MAX_TICK = 1e10
 dataset = 'quartets'
 model = 'transformer'
 ##########################################
-est_midi_path = f"metrics/holistic/quartets/midi"
-midi_path =     f"metrics/holistic/target/quartets/midi"
+est_midi_path = f"metrics/pipeline/quartets/midi"
+midi_path =     f"metrics/pipeline/target/quartets/midi"
 method = 'A2S'
 
 
